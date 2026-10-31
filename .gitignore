@@ -31,3 +31,24 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+
+# Local deployment secrets
+k8s/secret.yaml
+terraform/terraform.tfvars
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/.terraform.lock.hcl
+terraform/**/terraform.tfvars
+terraform/**/.terraform/
+terraform/**/*.tfstate
+terraform/**/*.tfstate.*
+terraform/**/.terraform.lock.hcl
+Student Management - Livraison DevOps commandes.pptx
+Student Management - Livraison DevOps corrige.pptx
+Student-Management-Technology-Guide.pptx
